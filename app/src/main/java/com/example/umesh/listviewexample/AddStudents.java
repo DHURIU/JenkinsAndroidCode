@@ -14,7 +14,8 @@ public class AddStudents extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_students2);
-        setTitle("Add Students");
+        setTitle("Add Students Data");
+
         stdNameTxt = (EditText) findViewById(R.id.stdNameTxt);
         stdAddressTxt = (EditText) findViewById(R.id.stdAddressTxt);
         stdCityTxt = (EditText) findViewById(R.id.stdCityTxt);
